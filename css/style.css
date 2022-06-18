@@ -1,0 +1,232 @@
+:root {
+  --accent-color: #2196f3;
+  --accent-background-color: #188ce8;
+  --main-second-color: #000000;
+  --main-background-color: #ffffff;
+  --titel-color: #212121;
+  --titel-text-color: #757575;
+  --hero-background-color: #2f303a;
+  --btn-background-color: #f5f4fa;
+  --main-font: "Roboto";
+  --accent-font: "Raleway";
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--titel-text-color);
+  background-color: var(--main-background-color);
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.link {
+  list-style: none;
+  margin: 0px;
+}
+.link .link-nav,
+.link .link-contact,
+.logo,
+.link-card {
+  text-decoration: none;
+}
+
+/* header */
+.page-header {
+  border: 1px solid #ececec;
+}
+.logo {
+  font-family: var(--accent-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-second-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.span {
+  color: var(--accent-color);
+}
+/* nav */
+
+.link .link-nav {
+  color: var(--titel-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-color);
+}
+.link-nav.current {
+  color: var(--accent-color);
+}
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+.contact .link + .link {
+  margin-left: 50px;
+}
+.contact .link-contact {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 31px;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .link:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav .link-nav {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 31px;
+}
+.link-contact {
+  color: var(--titel-text-color);
+  font-weight: 500;
+}
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--hero-background-color);
+}
+
+.page-hero {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-background-color);
+}
+.button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--accent-background-color);
+}
+/* section-team */
+.section-team {
+  background-color: var(--btn-background-color);
+}
+.title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--titel-color);
+}
+.subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--titel-color);
+}
+.subtitle-text {
+  line-height: 1.71;
+}
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--titel-color);
+}
+.title-name-trade {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+/* footer */
+.footer {
+  background-color: var(--hero-background-color);
+}
+.logo-footer {
+  font-family: var(--accent-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-background-color);
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-background-color);
+}
+.link-footer {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* page-2 */
+.btn {
+  background-color: var(--btn-background-color);
+  border-radius: 4px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border-style: none;
+  cursor: pointer;
+}
+.btn.all {
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+}
+.title-card {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--titel-color);
+}
+.title-card-name {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--titel-text-color);
+}
