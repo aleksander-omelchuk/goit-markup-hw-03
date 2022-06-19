@@ -19,6 +19,12 @@ body {
   line-height: 1.4;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
 
 .container {
   width: 1200px;
@@ -27,9 +33,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* .section {
-  
-} */
+.section {
+  padding-bottom: 94px;
+}
 ul {
   margin: 0;
 }
@@ -43,7 +49,6 @@ ul {
 }
 .link {
   list-style: none;
-  margin: 0px;
 }
 .link .link-nav,
 .link .link-contact,
@@ -152,14 +157,55 @@ ul {
 .button:hover {
   background-color: var(--accent-background-color);
 }
+/* section особливості */
+.section.features {
+  padding-top: 94px;
+}
+.list {
+  display: flex;
+  padding-left: 0;
+}
+.list-features {
+  margin-right: 30px;
+}
+.list-features:last-child {
+  margin-right: 0;
+}
+/* section Чем мы занимаемся */
+.our-work {
+  display: flex;
+  padding-left: 0;
+}
+.link-work {
+  margin-right: 30px;
+}
+.link-work:last-child {
+  margin-right: 0;
+}
 /* section-team */
 .section-team {
   background-color: var(--btn-background-color);
+  padding-top: 94px;
+}
+.our-team {
+  display: flex;
+  padding-left: 0;
+}
+.link-team {
+  margin-right: 30px;
+}
+.link-team:nth-child(n4) {
+  margin-right: 0;
+}
+.link-team:last-child {
+  margin-right: 0;
 }
 .title {
   font-size: 36px;
   line-height: 1.16;
   color: var(--titel-color);
+  text-align: center;
+  margin-bottom: 50px;
 }
 .subtitle {
   font-size: 14px;
@@ -169,6 +215,8 @@ ul {
 }
 .subtitle-text {
   line-height: 1.71;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 .title-name {
   font-weight: 500;
@@ -176,11 +224,15 @@ ul {
   line-height: 1.18;
   text-align: center;
   color: var(--titel-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .title-name-trade {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 /* footer */
 .footer {
