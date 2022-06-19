@@ -121,6 +121,7 @@ ul {
 .link-contact {
   color: var(--titel-text-color);
   font-weight: 500;
+  padding-bottom: 9px;
 }
 .link-contact:hover,
 .link-contact:focus {
@@ -248,11 +249,20 @@ ul {
 }
 .logo-footer {
   font-family: var(--accent-font);
+  width: max-content;
   font-size: 26px;
   line-height: 1.19;
   color: var(--main-background-color);
   text-decoration: none;
+  display: block;
+  padding: 60px 0 20px;
 }
+.footer-list {
+  padding-left: 0;
+  padding-bottom: 60px;
+  width: max-content;
+}
+
 .address {
   font-style: normal;
   font-size: 14px;
@@ -265,10 +275,9 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 9px;
 }
-.container-address {
-  display: flex;
-}
+
 /* page-2 */
 .btn {
   background-color: var(--btn-background-color);
