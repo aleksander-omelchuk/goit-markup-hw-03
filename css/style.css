@@ -27,10 +27,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/* .section {
+  
+} */
 ul {
   margin: 0;
 }
@@ -86,6 +85,7 @@ ul {
 .contact {
   display: flex;
   margin-left: auto;
+  padding-left: 0;
 }
 .contact .link + .link {
   margin-left: 50px;
@@ -99,6 +99,7 @@ ul {
 .site-nav {
   display: flex;
   margin-left: 93px;
+  padding-left: 0;
 }
 .site-nav .link:not(:last-child) {
   margin-right: 50px;
@@ -118,22 +119,23 @@ ul {
 }
 
 /* hero */
-
+.section.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero {
   background-color: var(--hero-background-color);
+  text-align: center;
 }
 
 .page-hero {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-background-color);
-  padding-top: 200px;
-  padding-bottom: 30px;
-  width: 696px;
+  margin: 0 237px 30px;
 }
 .button {
   font-family: var(--main-font);
