@@ -25,7 +25,11 @@ h3,
 h4 {
   margin: 0;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -192,6 +196,10 @@ ul {
   padding-left: 0;
 }
 .link-team {
+  background-color: var(--main-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
 }
 .link-team:nth-child(n4) {
@@ -257,6 +265,9 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+.container-address {
+  display: flex;
 }
 /* page-2 */
 .btn {
