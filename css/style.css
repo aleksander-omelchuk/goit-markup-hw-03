@@ -39,6 +39,7 @@ img {
 }
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 ul {
   margin: 0;
@@ -164,7 +165,7 @@ ul {
 }
 /* section особливості */
 .section.features {
-  padding-top: 94px;
+  padding-bottom: 0;
 }
 .list {
   display: flex;
@@ -333,4 +334,29 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--titel-text-color);
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.project-link {
+  margin: -3px;
+}
+.project-link {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: var(--main-background-color);
+  border: 1px solid #eeeeee;
+}
+.project-link:nth-child(3n) {
+  margin-right: 0;
+}
+.project-link:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.description-card {
+  margin: 20px 24px;
 }
