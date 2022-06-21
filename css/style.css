@@ -193,6 +193,7 @@ ul {
 }
 .list-features {
   margin-right: 30px;
+  width: 270px;
 }
 .list-features:last-child {
   margin-right: 0;
